@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yaldevi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@100&display=swap');
 
 * {
     padding: 0;
@@ -35,7 +35,7 @@ body {
 
 a {
     transition: all .5s ease-out;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-size: 18px;
     user-select: none;
     text-transform: capitalize;
@@ -94,15 +94,14 @@ a {
     color: #ffffff;
 }
 
-
-
 .logo a {
-    font-family: 'Yaldevi';
+    font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: 30px;
     text-transform: capitalize;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
+
 
 main {
     position: fixed;
